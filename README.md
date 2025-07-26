@@ -29,7 +29,7 @@ This is a full-stack web application built as part of the Aceable Software Engin
 
 `cd aceable-assignment`
 
-2. **Build and Start the App with Docker**
+2. **Build and Start the App with Docker in VS code**
 
 `docker-compose up --build`
 
