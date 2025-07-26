@@ -44,4 +44,5 @@ This will:
 3. **Access the App**
 
 Frontend (React): http://localhost:3000
+
 Backend API (Django): http://localhost:8000
