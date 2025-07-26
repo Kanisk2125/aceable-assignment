@@ -26,6 +26,7 @@ This is a full-stack web application built as part of the Aceable Software Engin
 1. **Clone the Repository**
 
 git clone https://github.com/Kanisk2125/aceable-assignment.git
+
 cd aceable-assignment
 
 2. **Build and Start the App with Docker**
@@ -34,7 +35,9 @@ docker-compose up --build
 
 This will:
 -Build both frontend and backend containers
+
 -Install all dependencies
+
 -Start the app on the respective ports
 
 3. **Access the App**
