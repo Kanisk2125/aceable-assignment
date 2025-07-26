@@ -34,11 +34,12 @@ cd aceable-assignment
 docker-compose up --build
 
 This will:
--Build both frontend and backend containers
 
--Install all dependencies
+ -Build both frontend and backend containers
 
--Start the app on the respective ports
+ -Install all dependencies
+
+ -Start the app on the respective ports
 
 3. **Access the App**
 
