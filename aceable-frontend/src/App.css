@@ -1,0 +1,77 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  max-width: 1100px;
+  margin: auto;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+}
+
+.section {
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type='text'],
+input[type='file'] {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.results-table {
+  overflow-x: auto;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.results-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #f1f3f5;
+  min-width: 900px;
+}
+
+.results-table th,
+.results-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #dee2e6;
+  white-space: nowrap;
+}
+
+.results-table th {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+.results-table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}

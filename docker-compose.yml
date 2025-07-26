@@ -1,0 +1,21 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    working_dir: /app
+
+  frontend:
+    build:
+      context: ./aceable-frontend
+      dockerfile: Dockerfile.aceable-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./aceable-frontend:/app
+    stdin_open: true
+    tty: true
