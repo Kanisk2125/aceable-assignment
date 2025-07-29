@@ -17,5 +17,6 @@ services:
       - "3000:3000"
     volumes:
       - ./aceable-frontend:/app
+      # - /app/node_modules
     stdin_open: true
     tty: true
